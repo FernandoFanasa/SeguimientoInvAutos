@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SeguimientoInvAutos.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SeguimientoInvAutos"
+    xmlns:views="clr-namespcae.SeguimientoInvAutos.Pages"
+    Shell.TabBarIsVisible="False">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        Route="LoginPage" />
+
+    <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Menú" ContentTemplate="{DataTemplate MenuBar}"/>
+    </FlyoutItem>
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            <Button Text="Salir" Command="{Binding SalirCommand}" BackgroundColor="Tomato" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
+</Shell>

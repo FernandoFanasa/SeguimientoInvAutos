@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SeguimientoInvAutos
+build_property.ProjectDir = C:\Proyectos\SeguimientoInvAutos\SeguimientoInvAutos\
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/Pages/FlyoutMenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.Pages.FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutMenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutMenuPage.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/Pages/FlyoutPageT.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.Pages.FlyoutPageT.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutPageT.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutPageT.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/Pages/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.Pages.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Proyectos/SeguimientoInvAutos/SeguimientoInvAutos/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SeguimientoInvAutos.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
