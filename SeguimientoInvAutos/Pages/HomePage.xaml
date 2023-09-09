@@ -3,55 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SeguimientoInvAutos.Pages.HomePage"
              Title="CAEMOVIL"
-             Shell.TabBarIsVisible="False"
-             Shell.NavBarIsVisible="False">
+             NavigationPage.HasNavigationBar="False">
 
+    <Grid BackgroundColor ="White" Padding="5" Margin="20,20,20,0">
 
-    <Grid BackgroundColor ="White" Padding="10">
+            <!--<Button Padding="20" Text="Salir" Command="{Binding SalirCommand}" BackgroundColor="DarkRed"  TextColor="White" FontAttributes="Bold" CornerRadius="30" WidthRequest="200" Margin="0,15,50,50"/>-->
 
-        <!--<Button Padding="20" Text="Salir" Command="{Binding SalirCommand}" BackgroundColor="DarkRed"  TextColor="White" FontAttributes="Bold" CornerRadius="30" WidthRequest="200" Margin="0,15,50,50"/>-->
-
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition  Width="*" />
-                <ColumnDefinition  Width="*" />
-                <ColumnDefinition  Width="*" />
-                <ColumnDefinition  Width="*" />
-                <ColumnDefinition  Width="*" />
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition  Width="*" />
+                    <ColumnDefinition  Width="*" />
                 <ColumnDefinition  Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Label BackgroundColor="#D40B3C" Grid.Row="0" Grid.Column="0" Text="Número Economico" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
-            <Label BackgroundColor="#D40B3C" Grid.Row="0" Grid.Column="1" Text="Marca" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#D40B3C" Grid.Row="0" Grid.Column="2" Text="Modelo" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#D40B3C" Grid.Row="0" Grid.Column="3" Text="Año" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#D40B3C" Grid.Row="0" Grid.Column="4" Text="Número de Serie" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#D40B3C" Grid.Row="0" Grid.Column="5" Text="Ubicación /Sucursal" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#D40B3C" Grid.Row="0" Grid.Column="6" Text="Estatus Inventario" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
+                <Label BackgroundColor="#008fb1" Grid.Row="0" Grid.Column="0" Text="# Economico" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+                <Label BackgroundColor="#008fb1" Grid.Row="0" Grid.Column="1" Text="# Serie" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
+                <Label BackgroundColor="#008fb1" Grid.Row="0" Grid.Column="2" Text="Marca" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
+            <Label BackgroundColor="#008fb1" Grid.Row="0" Grid.Column="3" Text="Modelo" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
             <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="0" Text="FA-0026" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="1" Text="CHEVROLET" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="2" Text="TRACKER" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="3" Text="2023" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="4" Text="93CEC76C4PB136210" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="5" Text="Balmis Corp" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
-            <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="6" Text="Inventariado" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
+                <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="1" Text="93CEC76C4PB136210" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
+                <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="2" Text="CHEVROLET" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
+            <Label BackgroundColor="#DEDCDC" Grid.Row="1" Grid.Column="3" Text="TRACKER" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" />
 
             <StackLayout Grid.Row="2" Grid.Column="0"  Orientation="Horizontal" Margin="5" Padding="0">
-                <CheckBox IsChecked="False"/>
-                <Label Text="No cuento con la unidad" TextColor="Black" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-            </StackLayout>
-            <Entry Grid.Row="4"
+                    <CheckBox IsChecked="False"/>
+                    <Label Text="No cuento con la unidad" TextColor="Black" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <Entry Grid.Row="4"
                    Grid.Column="0"
                    Margin="1"
                    x:Name="Comentarios"
@@ -59,7 +45,7 @@
                    WidthRequest="450"
                    HeightRequest="200"
                    HorizontalOptions="Start"/>
-        </Grid>
+            </Grid>
 
     </Grid>
 </ContentPage>
